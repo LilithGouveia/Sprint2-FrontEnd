@@ -42,6 +42,15 @@ header {
   margin-bottom: 1%;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #E3B663;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(50, 50, 50);
+}
+
 #selecionado{
   color: aqua;
 }

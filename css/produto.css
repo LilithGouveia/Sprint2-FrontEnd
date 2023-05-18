@@ -42,6 +42,21 @@ header {
   margin-bottom: 1%;
 }
 
+main{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #E3B663;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(50, 50, 50);
+}
+
 #selecionado{
   color: aqua;
 }
@@ -63,11 +78,6 @@ header {
   margin-right: 30px;
 }
 
-main{
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
 
 #faixa-matriz{
   display: flex;
